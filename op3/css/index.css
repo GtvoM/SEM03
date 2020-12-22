@@ -209,8 +209,14 @@ ul.menu li i {
     .user, .logo {
         text-align: center;
     }
+    #gtvo_w {
+        width: 90%;
+    }
+    .logo {
+        font-size: 25px;
+    }
 }
-@media all and (max-width : 768px) {
+@media only screen and (max-width : 768px) {
 	nav {
 		margin: 0;
 	}
