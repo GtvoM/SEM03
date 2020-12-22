@@ -1,0 +1,108 @@
+body {
+    font-family: "Segoe UI",Arial,sans-serif;
+    margin: 0 0 60px;
+}
+.gtvo_p {
+    color: #fff;
+    background-color: #000;
+    height: 310px;
+}
+.gtvo_nav {
+    margin: 0;
+    text-align: left;
+}
+.gtvo_nav i {
+    padding: 10px;
+    font-size: 22px;
+    margin: 15px 0 0 20px;
+}
+.gtvo_h {
+    text-align: center;
+}
+h1,h4 {
+    font-weight: 400;
+    margin: 10px 0;
+}
+.gtvo_h1 h4 {
+    font-size: 20px;
+}
+.gtvo_h1 h1 {
+    font-size: 48px;
+}
+.gtvo_h1 a {
+    background-color: #616161;
+    padding: 10px 25px;
+    font-size: 26px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.gtvo_h1 a:hover,.gtvo_nav i:hover {
+    color: #000;
+    background-color: #f1f1f1;
+}
+.gtvo_h1 p {
+    margin: 60px 0 0;
+}
+.gtvo_flexbox {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+}
+.gtvo_flexbox > div {
+    width: 50%;
+    margin: 20px 10px;
+    text-align: center;
+    padding: 10px 15px 50px;
+    box-shadow: 0 2px 5px 0 #00000029, 0 2px 10px 0 #0000001f;
+}
+.gtvo_flexbox h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.gtvo_flexbox div i {
+    font-size: 120px;
+}
+@media only screen and (max-width: 480px) {
+.gtvo_flexbox {
+    flex-direction: column;
+}
+.gtvo_flexbox > div {
+    width: auto;
+}
+.gtvo_p {
+    height: 370px;
+}
+}
+.gtvo_fix {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #e9ecef;
+    height: 40px;
+    line-height: 40px;
+}
+.gtvo_fix img.gtvo_codigo {
+    float: left;
+    height: 50px;
+    top: -5px;
+}
+.gtvo_fix img {
+    height: 120px;
+    top: -72px;
+    position: relative;
+    float: right;
+}
+.gtvo_fix a {
+    float: right;
+    width: 60px;
+    padding: 0 10px;
+    background-color: #2bc48a;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+.gtvo_fix a:hover {
+    background-color: #00af80;
+}
